@@ -10,7 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning..'
-                 git 'https://github.com/sonalman/DevOpsClassCodes.git'
+                 git 'https://github.com/raghunwin/DevOpsClassCodes.git'
               }
           }
           stage('Compile'){
